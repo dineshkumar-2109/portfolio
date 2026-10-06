@@ -1,0 +1,1186 @@
+{
+  "personal": {
+    "name": "Dinesh Kumar Komalagunta Nageswara Rao",
+    "shortName": "Dinesh Kumar",
+    "heroName": [
+      "DINESH",
+      "KUMAR"
+    ],
+    "title": "Software Developer",
+    "location": "Nellore, India",
+    "email": "dineshkomalagunta@gmail.com",
+    "phone": "9550991693",
+    "tagline": [
+      "Building scalable software,",
+      "AI-powered systems and",
+      "real-world engineering solutions."
+    ],
+    "focusAreas": [
+      "DSA",
+      "Backend",
+      "Full-stack",
+      "AI / GenAI",
+      "System design",
+      "IoT"
+    ],
+    "availability": {
+      "status": "",
+      "detail": ""
+    }
+  },
+  "about": {
+    "lead": "I build backend services, REST APIs and full-stack applications on a base of data structures, algorithms and databases.",
+    "summary": "Software Engineer with a strong foundation in Data Structures & Algorithms, object-oriented programming, and databases, building backend services, REST APIs, and full-stack applications with ASP.NET Core, Node.js, and React. Hands-on experience with IoT/BMS systems and MQTT migration at Cognizant, plus AI/GenAI project work using LLMs and RAG as an added strength.",
+    "pillars": [
+      {
+        "title": "Foundations",
+        "items": [
+          "Data Structures & Algorithms",
+          "Object-oriented programming",
+          "Databases"
+        ]
+      },
+      {
+        "title": "Builds with",
+        "items": [
+          "ASP.NET Core",
+          "Node.js",
+          "React"
+        ]
+      },
+      {
+        "title": "Hands-on",
+        "items": [
+          "IoT / BMS systems",
+          "MQTT migration"
+        ]
+      },
+      {
+        "title": "Added strength",
+        "items": [
+          "AI / GenAI",
+          "LLMs",
+          "RAG"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "cognizant",
+      "company": "Cognizant",
+      "role": "Program Analyst Trainee",
+      "team": "IoT SUS CoE",
+      "client": "Amazon",
+      "start": "November 2025",
+      "end": null,
+      "summary": "IoT and backend delivery for Amazon sites: protocol migration, data validation and a C# monitoring backend.",
+      "technologies": [
+        "ASP.NET Core",
+        "C#",
+        "REST APIs",
+        "MQTT"
+      ],
+      "responsibilities": [
+        {
+          "text": "Delivered the migration of client sites from the Niagara Fox protocol to MQTT-based communication.",
+          "focus": {
+            "flow": "migration",
+            "step": "fox"
+          }
+        },
+        {
+          "text": "Moved device and point data onto a lightweight publish/subscribe messaging model.",
+          "focus": {
+            "flow": "migration",
+            "step": "mqtt"
+          }
+        },
+        {
+          "text": "Validated data flow between JACE controllers and the Supervisor after migration, confirming devices continued reporting accurately across the new MQTT path.",
+          "focus": {
+            "flow": "migration",
+            "step": "jace"
+          }
+        },
+        {
+          "text": "Resolved device connectivity and data discrepancies to restore reliable site monitoring following the protocol change.",
+          "focus": {
+            "flow": "migration",
+            "step": "monitoring"
+          }
+        },
+        {
+          "text": "Delivered ASP.NET Core backend services and REST APIs for a C# IoT monitoring project, enabling device data collection.",
+          "focus": {
+            "flow": "monitoring-backend",
+            "step": "api"
+          }
+        },
+        {
+          "text": "Stored telemetry in databases to support monitoring and reporting.",
+          "focus": {
+            "flow": "monitoring-backend",
+            "step": "telemetry"
+          }
+        }
+      ],
+      "flows": [
+        {
+          "id": "migration",
+          "title": "Niagara Fox to MQTT migration",
+          "description": "Select a stage to see what it covered.",
+          "steps": [
+            {
+              "id": "fox",
+              "label": "Niagara Fox",
+              "detail": "The protocol client sites used before the migration."
+            },
+            {
+              "id": "mqtt",
+              "label": "MQTT",
+              "detail": "Device and point data moved onto a lightweight publish/subscribe messaging model."
+            },
+            {
+              "id": "jace",
+              "label": "JACE controllers",
+              "detail": "Data flow from the controllers was validated after the move."
+            },
+            {
+              "id": "supervisor",
+              "label": "Supervisor",
+              "detail": "Confirmed devices kept reporting accurately across the new MQTT communication path."
+            },
+            {
+              "id": "monitoring",
+              "label": "Reliable monitoring",
+              "detail": "Connectivity and data discrepancies were resolved to restore dependable site monitoring."
+            }
+          ]
+        },
+        {
+          "id": "monitoring-backend",
+          "title": "C# IoT monitoring backend",
+          "description": "The backend side of the same engagement.",
+          "steps": [
+            {
+              "id": "devices",
+              "label": "Devices",
+              "detail": "Source of the device data the backend collects."
+            },
+            {
+              "id": "api",
+              "label": "ASP.NET Core services and REST APIs",
+              "detail": "Backend services and REST APIs that enable device data collection."
+            },
+            {
+              "id": "telemetry",
+              "label": "Telemetry database",
+              "detail": "Telemetry is stored in databases."
+            },
+            {
+              "id": "reporting",
+              "label": "Monitoring and reporting",
+              "detail": "Stored telemetry supports monitoring and reporting."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "interviewai",
+      "title": "InterviewAI",
+      "subtitle": "AI-Powered Interview Preparation Platform",
+      "period": "July 2026 – October 2026",
+      "summary": "An AI-powered platform that turns a candidate's resume into personalized technical, behavioral, and coding interview questions using LLMs.",
+      "problem": "Candidates need interview practice that is tailored to their own resume rather than generic question lists.",
+      "solution": "Resume analysis feeds personalized question generation, real-time text and voice mock interviews, LLM-based answer evaluation with dynamic follow-ups, and automated feedback. ATS resume analysis, skill-gap detection, readiness scoring and learning roadmaps turn each session into next steps.",
+      "features": [
+        {
+          "group": "Personalized questions",
+          "items": [
+            "Resume analysis",
+            "Technical questions",
+            "Behavioral questions",
+            "Coding questions"
+          ]
+        },
+        {
+          "group": "Mock interviews",
+          "items": [
+            "Real-time text mock interviews",
+            "Voice mock interviews",
+            "LLM-based answer evaluation",
+            "Dynamic follow-up questions",
+            "Automated feedback"
+          ]
+        },
+        {
+          "group": "Preparation insights",
+          "items": [
+            "ATS resume analysis",
+            "Skill-gap detection",
+            "Interview readiness scoring",
+            "Personalized learning roadmaps"
+          ]
+        },
+        {
+          "group": "Platform",
+          "items": [
+            "Authentication",
+            "Interview analytics dashboards",
+            "Responsive, SaaS-style interface"
+          ]
+        }
+      ],
+      "technologies": [
+        {
+          "name": "LLMs",
+          "confirmed": true
+        },
+        {
+          "name": "React",
+          "confirmed": false
+        },
+        {
+          "name": "Node.js",
+          "confirmed": false
+        },
+        {
+          "name": "Python",
+          "confirmed": false
+        },
+        {
+          "name": "RAG",
+          "confirmed": false
+        },
+        {
+          "name": "LangChain",
+          "confirmed": false
+        },
+        {
+          "name": "PostgreSQL",
+          "confirmed": false
+        }
+      ],
+      "visual": {
+        "type": "flow",
+        "flow": {
+          "id": "interviewai-pipeline",
+          "title": "From resume to learning roadmap",
+          "description": "Select a stage to explore it.",
+          "steps": [
+            {
+              "id": "resume",
+              "label": "Resume",
+              "detail": "The candidate's resume is the starting point for everything that follows.",
+              "tags": []
+            },
+            {
+              "id": "analysis",
+              "label": "Resume analysis",
+              "detail": "The resume is analysed, including ATS resume analysis.",
+              "tags": [
+                "ATS resume analysis"
+              ]
+            },
+            {
+              "id": "skills",
+              "label": "Skill extraction",
+              "detail": "Skills are identified so that skill gaps can be detected.",
+              "tags": [
+                "Skill-gap detection"
+              ]
+            },
+            {
+              "id": "questions",
+              "label": "Question generation",
+              "detail": "LLMs generate personalized technical, behavioral and coding questions.",
+              "tags": [
+                "Technical",
+                "Behavioral",
+                "Coding"
+              ]
+            },
+            {
+              "id": "interview",
+              "label": "Mock interview",
+              "detail": "Practice in real-time text or voice mock interviews.",
+              "tags": [
+                "Text",
+                "Voice"
+              ]
+            },
+            {
+              "id": "evaluation",
+              "label": "LLM evaluation",
+              "detail": "Answers are evaluated by an LLM, which also asks dynamic follow-up questions.",
+              "tags": [
+                "Answer evaluation",
+                "Follow-ups"
+              ]
+            },
+            {
+              "id": "feedback",
+              "label": "Feedback",
+              "detail": "Automated feedback and an interview readiness score.",
+              "tags": [
+                "Automated feedback",
+                "Readiness scoring"
+              ]
+            },
+            {
+              "id": "roadmap",
+              "label": "Learning roadmap",
+              "detail": "Personalized learning roadmaps, with progress shown in interview analytics dashboards.",
+              "tags": [
+                "Roadmaps",
+                "Analytics dashboards"
+              ]
+            }
+          ]
+        }
+      },
+      "architecture": {
+        "flows": []
+      },
+      "links": [
+        {
+          "kind": "github",
+          "label": "Source code",
+          "url": ""
+        },
+        {
+          "kind": "demo",
+          "label": "Live demo",
+          "url": ""
+        }
+      ],
+      "media": [],
+      "decisions": []
+    },
+    {
+      "id": "powerpulse",
+      "title": "PowerPulse",
+      "subtitle": "Energy Management System",
+      "period": "November 2025",
+      "summary": "A full-stack energy monitoring system giving teams visibility into meter-level and line-level power consumption, with daily, weekly, and monthly analytics.",
+      "problem": "Teams needed visibility into meter-level and line-level power consumption, and a way to catch abnormal usage without watching dashboards all day.",
+      "solution": "ASP.NET Core REST APIs with JWT authentication and role-based access feed interactive Recharts dashboards for live and historical analysis. Scheduled background services apply configurable threshold rules and generate alerts for abnormal usage.",
+      "features": [
+        {
+          "group": "Monitoring and analytics",
+          "items": [
+            "Meter-level power monitoring",
+            "Line-level power monitoring",
+            "Daily, weekly and monthly analytics",
+            "Live and historical consumption analysis",
+            "Interactive Recharts dashboards"
+          ]
+        },
+        {
+          "group": "Access control",
+          "items": [
+            "JWT authentication",
+            "Role-based access control",
+            "Admin, Manager and Employee roles"
+          ]
+        },
+        {
+          "group": "Alerting",
+          "items": [
+            "Abnormal energy usage detection",
+            "Configurable threshold rules",
+            "Scheduled background services",
+            "Automated alerts"
+          ]
+        },
+        {
+          "group": "Engineering",
+          "items": [
+            "Repository / service pattern",
+            "Entity Framework Core data access"
+          ]
+        }
+      ],
+      "technologies": [
+        {
+          "name": "React",
+          "confirmed": true
+        },
+        {
+          "name": "ASP.NET Core Web API",
+          "confirmed": true
+        },
+        {
+          "name": "SQL Server",
+          "confirmed": true
+        },
+        {
+          "name": "Entity Framework Core",
+          "confirmed": true
+        },
+        {
+          "name": "Recharts",
+          "confirmed": true
+        }
+      ],
+      "visual": {
+        "type": "dashboard",
+        "dashboard": {
+          "title": "PowerPulse",
+          "note": "Illustrative simulation with sample data, not real readings.",
+          "unit": "kW",
+          "capacity": 400,
+          "lines": [
+            {
+              "id": "l1",
+              "label": "Line 1"
+            },
+            {
+              "id": "l2",
+              "label": "Line 2"
+            }
+          ],
+          "meters": [
+            {
+              "id": "m1",
+              "label": "Meter 1",
+              "line": "l1",
+              "base": 28,
+              "limit": 45
+            },
+            {
+              "id": "m2",
+              "label": "Meter 2",
+              "line": "l1",
+              "base": 31,
+              "limit": 45
+            },
+            {
+              "id": "m3",
+              "label": "Meter 3",
+              "line": "l1",
+              "base": 24,
+              "limit": 45
+            },
+            {
+              "id": "m4",
+              "label": "Meter 4",
+              "line": "l1",
+              "base": 35,
+              "limit": 50
+            },
+            {
+              "id": "m5",
+              "label": "Meter 5",
+              "line": "l1",
+              "base": 29,
+              "limit": 45
+            },
+            {
+              "id": "m6",
+              "label": "Meter 6",
+              "line": "l2",
+              "base": 33,
+              "limit": 50
+            },
+            {
+              "id": "m7",
+              "label": "Meter 7",
+              "line": "l2",
+              "base": 26,
+              "limit": 45
+            },
+            {
+              "id": "m8",
+              "label": "Meter 8",
+              "line": "l2",
+              "base": 30,
+              "limit": 45
+            },
+            {
+              "id": "m9",
+              "label": "Meter 9",
+              "line": "l2",
+              "base": 27,
+              "limit": 45
+            },
+            {
+              "id": "m10",
+              "label": "Meter 10",
+              "line": "l2",
+              "base": 32,
+              "limit": 50
+            }
+          ],
+          "series": {
+            "daily": {
+              "label": "Daily",
+              "labels": [
+                "00",
+                "03",
+                "06",
+                "09",
+                "12",
+                "15",
+                "18",
+                "21"
+              ],
+              "values": [
+                180,
+                160,
+                210,
+                290,
+                340,
+                320,
+                300,
+                230
+              ]
+            },
+            "weekly": {
+              "label": "Weekly",
+              "labels": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri",
+                "Sat",
+                "Sun"
+              ],
+              "values": [
+                310,
+                325,
+                318,
+                335,
+                322,
+                210,
+                190
+              ]
+            },
+            "monthly": {
+              "label": "Monthly",
+              "labels": [
+                "Wk 1",
+                "Wk 2",
+                "Wk 3",
+                "Wk 4"
+              ],
+              "values": [
+                2100,
+                2240,
+                2190,
+                2280
+              ]
+            }
+          }
+        }
+      },
+      "architecture": {
+        "flows": [
+          {
+            "id": "powerpulse-request",
+            "title": "Request path",
+            "steps": [
+              {
+                "id": "ui",
+                "label": "React dashboards",
+                "detail": "Interactive Recharts dashboards for live and historical consumption."
+              },
+              {
+                "id": "api",
+                "label": "ASP.NET Core Web API",
+                "detail": "REST APIs secured with JWT authentication and role-based access control for Admins, Managers and Employees."
+              },
+              {
+                "id": "services",
+                "label": "Repository / service layer",
+                "detail": "Business logic and data access separated with the repository/service pattern."
+              },
+              {
+                "id": "ef",
+                "label": "Entity Framework Core",
+                "detail": "Data access layer used by the repositories."
+              },
+              {
+                "id": "db",
+                "label": "SQL Server",
+                "detail": "Stores the consumption data behind the analytics."
+              }
+            ]
+          },
+          {
+            "id": "powerpulse-alerts",
+            "title": "Alert path",
+            "steps": [
+              {
+                "id": "jobs",
+                "label": "Scheduled background services",
+                "detail": "Run on a schedule to check consumption."
+              },
+              {
+                "id": "rules",
+                "label": "Configurable threshold rules",
+                "detail": "Rules decide what counts as abnormal usage."
+              },
+              {
+                "id": "alerts",
+                "label": "Automated alerts",
+                "detail": "Alerts are generated when usage is abnormal."
+              }
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "kind": "github",
+          "label": "Source code",
+          "url": ""
+        },
+        {
+          "kind": "demo",
+          "label": "Live demo",
+          "url": ""
+        }
+      ],
+      "media": [],
+      "decisions": []
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "id": "languages",
+        "label": "Languages",
+        "items": [
+          "Java",
+          "Python",
+          "JavaScript",
+          "C#"
+        ]
+      },
+      {
+        "id": "backend",
+        "label": "Backend",
+        "items": [
+          "ASP.NET Core",
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "Kafka"
+        ]
+      },
+      {
+        "id": "frontend",
+        "label": "Frontend",
+        "items": [
+          "React.js",
+          "HTML",
+          "CSS",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "id": "databases",
+        "label": "Databases",
+        "items": [
+          "SQL Server",
+          "PostgreSQL",
+          "MongoDB",
+          "SQL"
+        ]
+      },
+      {
+        "id": "ai",
+        "label": "AI / GenAI",
+        "items": [
+          "LLMs",
+          "Generative AI",
+          "RAG",
+          "LangChain",
+          "Machine Learning"
+        ]
+      },
+      {
+        "id": "tools",
+        "label": "Cloud & Tools",
+        "items": [
+          "GCP",
+          "Git",
+          "Docker",
+          "Entity Framework Core",
+          "Unit Testing"
+        ]
+      },
+      {
+        "id": "cs",
+        "label": "CS Fundamentals",
+        "items": [
+          "Data Structures & Algorithms",
+          "OOP",
+          "DBMS",
+          "Operating Systems",
+          "Computer Networks",
+          "System Design"
+        ]
+      }
+    ],
+    "relations": [
+      [
+        "ASP.NET Core",
+        "C#"
+      ],
+      [
+        "ASP.NET Core",
+        "REST APIs"
+      ],
+      [
+        "Entity Framework Core",
+        "C#"
+      ],
+      [
+        "Entity Framework Core",
+        "SQL Server"
+      ],
+      [
+        "Node.js",
+        "JavaScript"
+      ],
+      [
+        "Express.js",
+        "Node.js"
+      ],
+      [
+        "Express.js",
+        "REST APIs"
+      ],
+      [
+        "React.js",
+        "JavaScript"
+      ],
+      [
+        "React.js",
+        "HTML"
+      ],
+      [
+        "React.js",
+        "CSS"
+      ],
+      [
+        "Tailwind CSS",
+        "CSS"
+      ],
+      [
+        "SQL Server",
+        "SQL"
+      ],
+      [
+        "PostgreSQL",
+        "SQL"
+      ],
+      [
+        "SQL",
+        "DBMS"
+      ],
+      [
+        "MongoDB",
+        "DBMS"
+      ],
+      [
+        "LangChain",
+        "Python"
+      ],
+      [
+        "LangChain",
+        "LLMs"
+      ],
+      [
+        "RAG",
+        "LLMs"
+      ],
+      [
+        "Generative AI",
+        "LLMs"
+      ],
+      [
+        "Machine Learning",
+        "Python"
+      ],
+      [
+        "OOP",
+        "Java"
+      ],
+      [
+        "OOP",
+        "C#"
+      ],
+      [
+        "Kafka",
+        "System Design"
+      ],
+      [
+        "REST APIs",
+        "System Design"
+      ],
+      [
+        "GCP",
+        "System Design"
+      ],
+      [
+        "Docker",
+        "GCP"
+      ],
+      [
+        "Data Structures & Algorithms",
+        "Java"
+      ],
+      [
+        "Data Structures & Algorithms",
+        "Python"
+      ]
+    ]
+  },
+  "education": [
+    {
+      "id": "srkit",
+      "institution": "SRK Institute of Technology",
+      "degree": "B.Tech – Electronics and Communication Engineering",
+      "date": "April 2025",
+      "score": "CGPA: 7.2/10"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "claude-certified-developer-foundations",
+      "title": "Claude Certified Developer - Foundations",
+      "issuer": "Anthropic",
+      "kind": "Certificate",
+      "category": "",
+      "level": "Foundations",
+      "issued": "Sep 27, 2026",
+      "expires": "Sep 27, 2027",
+      "description": "Foundational training in building applications with Claude and the Anthropic API.",
+      "credentialUrl": "https://www.credly.com/badges/5996e2d9-5190-4bde-89c1-726a7382c257",
+      "fileUrl": "/certificates/claude-certified-developer-foundations.pdf",
+      "previewImage": "/certificates/claude-certified-developer-foundations.png"
+    },
+    {
+      "id": "build-with-gemini",
+      "title": "Build with Gemini",
+      "issuer": "Google Cloud",
+      "kind": "Skill badge",
+      "category": "Artificial Intelligence",
+      "level": "Intermediate",
+      "issued": "Sep 29, 2026",
+      "expires": "",
+      "description": "",
+      "credentialUrl": "https://www.credly.com/go/5yIRQdO2",
+      "fileUrl": "/certificates/build-with-gemini.pdf",
+      "previewImage": "/certificates/build-with-gemini.png"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "dsa",
+      "value": 800,
+      "suffix": "+",
+      "label": "DSA problems solved",
+      "detail": "Data Structures & Algorithms problems across LeetCode and GeeksforGeeks.",
+      "links": [
+        {
+          "label": "LeetCode",
+          "url": "https://leetcode.com/u/WVu1rU2T0d/"
+        },
+        {
+          "label": "GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/profile/dineshkomb91x"
+        }
+      ]
+    }
+  ],
+  "thinking": {
+    "disclaimer": "These are learning exercises that show how I reason. They are not production projects.",
+    "scaling": {
+      "heading": "Scaling an API",
+      "question": "How would you scale an API to handle 1 million requests per second?",
+      "intro": "No single trick gets you there. Turn on one layer at a time and see which bottleneck it removes, and what it costs.",
+      "baseline": {
+        "label": "Clients",
+        "detail": "Every request starts here."
+      },
+      "core": {
+        "label": "API server",
+        "detail": "A single server is the first bottleneck: one machine's CPU, memory and connections."
+      },
+      "components": [
+        {
+          "id": "api-design",
+          "label": "API architecture",
+          "solves": "Keeps each request cheap: stateless handlers, pagination, rate limiting and idempotent endpoints so servers can be added and requests can be retried safely.",
+          "tradeoff": "Statelessness pushes session and state into shared stores.",
+          "stage": "front"
+        },
+        {
+          "id": "load-balancer",
+          "label": "Load balancing",
+          "solves": "Spreads incoming traffic across servers and removes the single point of failure at the entrance.",
+          "tradeoff": "The balancer itself must be redundant, and health checks must be accurate.",
+          "stage": "front"
+        },
+        {
+          "id": "horizontal",
+          "label": "Horizontal scaling",
+          "solves": "Adds more identical API servers instead of a bigger one, so capacity grows with traffic.",
+          "tradeoff": "Shared resources such as the database become the next bottleneck.",
+          "stage": "app",
+          "replicate": true
+        },
+        {
+          "id": "cache",
+          "label": "Caching",
+          "solves": "Answers repeated reads from memory so most requests never reach the database.",
+          "tradeoff": "Stale data and cache invalidation are hard problems.",
+          "stage": "data"
+        },
+        {
+          "id": "database",
+          "label": "Databases",
+          "solves": "Read replicas absorb read traffic, and partitioning (sharding) splits writes across machines.",
+          "tradeoff": "Replication lag and cross-partition queries add complexity.",
+          "stage": "data"
+        },
+        {
+          "id": "kafka",
+          "label": "Kafka",
+          "solves": "Moves slow or bursty work off the request path onto an event stream, so the API responds quickly and workers process at their own pace.",
+          "tradeoff": "Work becomes asynchronous: ordering, retries and eventual consistency need design.",
+          "stage": "async"
+        }
+      ]
+    }
+  },
+  "systemDesign": {
+    "heading": "System design, in progress",
+    "intro": "A map of the concepts I work with and the ones I'm actively building depth in. Select a node for detail.",
+    "legend": {
+      "applied": "Used in my work or projects",
+      "learning": "Studying and practising"
+    },
+    "nodes": [
+      {
+        "id": "devices",
+        "label": "IoT devices and JACE controllers",
+        "col": 0,
+        "row": 0,
+        "status": "applied",
+        "detail": "Source of the device data in the Cognizant IoT work."
+      },
+      {
+        "id": "mqtt",
+        "label": "MQTT pub/sub",
+        "col": 1,
+        "row": 0,
+        "status": "applied",
+        "detail": "Migrated client sites from Niagara Fox to MQTT-based publish/subscribe communication."
+      },
+      {
+        "id": "events",
+        "label": "Event-driven design",
+        "col": 2,
+        "row": 0,
+        "status": "learning",
+        "detail": "Studying how event-driven patterns extend beyond device messaging."
+      },
+      {
+        "id": "kafka",
+        "label": "Kafka",
+        "col": 3,
+        "row": 0,
+        "status": "learning",
+        "detail": "Listed in my skills; I'm building hands-on depth in event streaming."
+      },
+      {
+        "id": "clients",
+        "label": "React clients",
+        "col": 0,
+        "row": 1,
+        "status": "applied",
+        "detail": "React dashboards such as PowerPulse."
+      },
+      {
+        "id": "api",
+        "label": "REST APIs",
+        "col": 1,
+        "row": 1,
+        "status": "applied",
+        "detail": "ASP.NET Core REST APIs at Cognizant and in PowerPulse, secured with JWT and role-based access in PowerPulse."
+      },
+      {
+        "id": "services",
+        "label": "Backend services",
+        "col": 2,
+        "row": 1,
+        "status": "applied",
+        "detail": "ASP.NET Core services, plus scheduled background services in PowerPulse."
+      },
+      {
+        "id": "db",
+        "label": "Databases",
+        "col": 3,
+        "row": 1,
+        "status": "applied",
+        "detail": "Telemetry and application data stored in databases, including SQL Server in PowerPulse."
+      },
+      {
+        "id": "gcp",
+        "label": "GCP",
+        "col": 2,
+        "row": 2,
+        "status": "learning",
+        "detail": "A cloud skill I'm building hands-on depth in."
+      },
+      {
+        "id": "distributed",
+        "label": "Distributed systems",
+        "col": 3,
+        "row": 2,
+        "status": "learning",
+        "detail": "Studying replication, partitioning and consistency trade-offs."
+      }
+    ],
+    "edges": [
+      [
+        "devices",
+        "mqtt"
+      ],
+      [
+        "mqtt",
+        "services"
+      ],
+      [
+        "services",
+        "events"
+      ],
+      [
+        "events",
+        "kafka"
+      ],
+      [
+        "clients",
+        "api"
+      ],
+      [
+        "api",
+        "services"
+      ],
+      [
+        "services",
+        "db"
+      ],
+      [
+        "services",
+        "gcp"
+      ],
+      [
+        "db",
+        "distributed"
+      ]
+    ]
+  },
+  "social": {
+    "github": {
+      "label": "GitHub",
+      "url": "https://github.com/dineshkumar-2109"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dinesh-kumar-632749371"
+    },
+    "resume": {
+      "label": "Resume",
+      "url": "/resume.pdf"
+    }
+  },
+  "contact": {
+    "headline": "LET'S BUILD SOMETHING.",
+    "body": "Interested in software engineering, AI systems, backend engineering, or interesting technical problems? Let's connect."
+  },
+  "settings": {
+    "seo": {
+      "title": "Dinesh Kumar — Software Developer",
+      "description": "Software Developer building full-stack applications, AI-powered systems, and scalable software solutions.",
+      "siteUrl": "",
+      "ogImage": ""
+    },
+    "showUnconfirmedTechnologies": false,
+    "chapters": [
+      {
+        "id": "who",
+        "number": "01",
+        "question": "Who am I?"
+      },
+      {
+        "id": "build",
+        "number": "02",
+        "question": "What do I build?"
+      },
+      {
+        "id": "think",
+        "number": "03",
+        "question": "How do I think?"
+      },
+      {
+        "id": "done",
+        "number": "04",
+        "question": "What have I done?"
+      }
+    ],
+    "sectionHeadings": {
+      "skills": "What I build with",
+      "education": "Education",
+      "credentials": "Credentials",
+      "experience": "Experience",
+      "credentialsIntro": "Verified certificates, plus the problem-solving practice behind them."
+    },
+    "mobileNav": [
+      {
+        "label": "Projects",
+        "target": "build",
+        "icon": "layers"
+      },
+      {
+        "label": "Experience",
+        "target": "done",
+        "icon": "briefcase"
+      },
+      {
+        "label": "Skills",
+        "target": "skills",
+        "icon": "network"
+      },
+      {
+        "label": "Resume",
+        "target": "resume",
+        "icon": "file"
+      },
+      {
+        "label": "Contact",
+        "target": "contact",
+        "icon": "mail"
+      }
+    ],
+    "lastUpdated": "October 2026",
+    "glance": {
+      "stack": [
+        "ASP.NET Core",
+        "Node.js",
+        "React.js",
+        "Python"
+      ]
+    }
+  }
+}

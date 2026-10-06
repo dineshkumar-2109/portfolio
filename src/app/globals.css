@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  @apply bg-paper font-body text-lg leading-relaxed text-ink antialiased;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 3px solid #2340C8;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  .bg-night :focus-visible,
+  .bg-ink :focus-visible {
+    outline-color: #F2561D;
+  }
+  ::selection {
+    background: #F2561D;
+    color: #0E1424;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer components {
+  /* Engineering drafting-paper grid: fine 32px cells over a stronger 160px lattice */
+  .paper-grid {
+    background-color: #F1F2EE;
+    background-image:
+      linear-gradient(to right, rgba(18, 24, 38, 0.1) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(18, 24, 38, 0.1) 1px, transparent 1px),
+      linear-gradient(to right, rgba(18, 24, 38, 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(18, 24, 38, 0.045) 1px, transparent 1px);
+    background-size: 160px 160px, 160px 160px, 32px 32px, 32px 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
